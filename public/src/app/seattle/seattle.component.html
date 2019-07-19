@@ -1,0 +1,19 @@
+<h1 class="d-flex justify-content-center">{{ city.name }}, CA</h1>
+
+<div class="d-flex justify-content-center">
+
+    <div>
+        <h4>Humidity: {{city.main.humidity}}</h4> <br>
+        <h4>Temperature (Average): {{city.main.temp}}</h4><br>
+        <h4>Temperature (High): {{city.main.temp_max}}</h4><br>
+        <h4>Temperature (Low): {{city.main.temp_min}}</h4><br>
+        <h4>Status: {{city.weather[0].description}}</h4>
+    </div>
+    
+    <div class="d-flex justify-content-right" >
+            <img src="https://images.pexels.com/photos/1796730/pexels-photo-1796730.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="city" style="height: 200; width: 400px;">
+        
+    </div>
+
+</div>
+
